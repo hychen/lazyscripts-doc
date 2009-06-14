@@ -1,3 +1,7 @@
+Sphinix Installation
+====================
+
+$ apt-get install python-sphinx
 
 Build HTML
 ==========
