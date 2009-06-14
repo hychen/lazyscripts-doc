@@ -1,0 +1,7 @@
+
+Build HTML
+==========
+
+$ cd zh_TW && make html
+
+the production could be found in zh_TW/.build/html/

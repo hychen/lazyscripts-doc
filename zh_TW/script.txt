@@ -1,0 +1,44 @@
+腳本(Script)
+=============
+
+=====================
+如何撰寫腳本(Script)
+=====================
+
+你需要一顆，虔誠的心…
+
+================
+Script Category
+================
+
+* Accessories – ex.
+* Productivity – ex. vim, openoffice
+* Graphics – ex.gimp
+* Development – ex. eclipse
+* Entertain – ex. mplayer,miro
+* InfoManagement – ex. sunbird, gnucash
+* Games – ex. gweled
+* Hardware – laptop customize script.
+* Multimedia – gstream
+* Networking – ex. firefox, pidgin, ie6, skype, pcman
+* System
+* Customize – 加快開機速度
+* Localization- 中文化環境
+
+
+================
+Script Metadata
+================
+
+* @name : script name.
+* @desc : script description.
+* @warn : script warning.
+* @category : script category id (defined by lazyscript team).
+* @maintaner : script maintaner.
+* @author : script author.
+* @license : script license.
+* @debian : script supports debian.
+* @ubuntu : script supports ubuntu.
+* @platform : support platform.
+* @child the : scripts need to run with
+* @hide : hide this item

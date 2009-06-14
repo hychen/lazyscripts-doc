@@ -1,0 +1,79 @@
+Lazyscripts 0.1 多了什麼?
+=========================
+
+本文件說明在2009年7月1號發行的 Lazyscripts 0.1版多了什麼新功能。
+
+本文件會概括性介紹 Lazyscripts 0.1 發行版 ，但並不會詳細描述新功能，
+欲知更多細節請閱讀 Lazyscripts 0.1 使用文件。
+
+=====================
+與Lazybuntu最大的不同
+=====================
+
+* 不需頻繁更新主程式：
+
+    新版的Lazyscripts不再將 scripts與主程式合併釋出。Lazyscripts懶人包
+    只包含主程式，所有的功能會在執行時才從網路下載。而整個程式架構也分
+    成了使用者介面（GUI）、程式核心（Core）、以及功能（Scripts）。
+
+    功能將會隨著維護者的新增而更新，重新執行程式即可更新，不需要更新主
+    程式。
+
+* 用戶可隨意自訂Scripts：
+
+    如果您是進階使用者，未來Lazyscripts也提供幾個簡單步驟，讓您自訂專屬
+    於你自己的scripts。也就是說，使用者對於懶人包所連結的軟體選項，是可
+    以自由修改的。例如，您可以自行定義與客製化組合辦公室或班級內所需要的
+    Lazyscripts。這樣一份專屬的「軟體清單」懶人包，無疑造福更多的使用者。
+
+==============
+全新的 Logo
+==============
+
+感謝 `Honkia <http://pdtw.blogspot.com/>`_ 
+為新生的Lazyscrtipts 設計Logo。
+
+=====================
+更彈性化的系統架構
+=====================
+
+現在的lazyscripts裡面的結構已經全部更新，現在變得更容易將客製化的腳本
+(scripts)放入其中，下一個版本的 lazyscripts 可以更容易的置換腳本來源。
+
+=====================
+自動更新腳本 (Script)
+=====================
+
+Lazyscripts 全部的腳本 (script) 將會從網路上直接更新，當您每次執行 
+主程式時，都會從網路上自動下載最新的 scripts。
+
+=====================
+新支援的Linux發行版本
+=====================
+
+.. note::
+
+    SuSE 以及 Fedora 支援正在開發中。
+
+0.1版開始支援 ：
+
+* Debian 5.0 （安裝桌面環境）
+* `EzGo 自由軟體光碟 <http://news.ossacc.org/new_icare_readme_linux/ezgo.html>`_
+
+=============
+開發方式變更
+=============
+
+* 程式碼採用Git管理
+
+* 採用Google code作為專案管理工具
+
+* 採用 Sphinix 作為文件撰寫工具
+
+    Sphinix 是 Python 2.6 版所採用的文件生成系統，使用 `reStructuredText <http://docutils.sourceforge.net/rst.html>`_ 
+    語法處理文件內容關聯、排版，並且支援多種格式輸出，包含HTML、PDF、Latext。用 Sphinx 所生成的文件網站除了頁面能自訂樣式，自訂文件導覽順序，甚至還有附有搜尋功能。
+    
+.. seealso::
+
+    * `Git官網 <http://git-scm.org>`_ 
+    * `Sphinix 官網 <http://sphinx.pocoo.org/index.html>`_ 

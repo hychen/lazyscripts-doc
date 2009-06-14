@@ -1,0 +1,43 @@
+概念
+========
+
+Lazyscripts 為延續 Lazybuntu 的易用性，在使用者介面上幾乎完全保留，
+使用過Lazybuntu的使用者，除了進階功能，不需要再花心力學習新的操作方式。
+而在介面下隱藏的卻是腳本散佈，控管的複雜設計，目前雖非盡善盡美，但已略達到原先設計初衷。
+
+本章節將說明 Lazyscritps 的系統模型，魔鬼，都隱藏在細節裡。
+
+=========
+系統架構
+=========
+
+.. note::
+
+    Lazyscripts Social Web 尚未開始實作！
+
+.. image:: image/lazyscripts_model.jpg
+
+
+使用者 (End User)
+
+   desc
+
+腳本開發者 (Scripts Developer)
+
+   desc
+
+腳本庫維護者 (Scripts Pool Mantainer)
+
+   desc
+
+主程式開發者 (Core Developer)
+    
+        desc
+
+=========================
+腳本(Script)版本控制模型
+=========================
+
+=====================
+腳本(Script)散佈模型
+=====================

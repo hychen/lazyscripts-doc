@@ -1,0 +1,60 @@
+如何幫忙
+=========
+
+著名的Linux開發者之一的雷蒙說過：「把使用者視為協同開發人，乃是迅速改善程式碼和有效除錯的最佳途徑！」Lazy 社群團隊一直保持與使用者的高度互動，誠摯希望使用者能透過任何管道告知我們使用狀況與建議。
+
+你可以透過以下方式連繫我們。
+
+#. IRC: irc.freenode.net #lazyscripts
+
+#. `Lazyscripts Developer Mailing List <http://groups.google.com/group/lazyscripts-dev/>`_:
+
+#. `HackingThursday 實體聚會 <http://hack.ingday.org>`_:
+
+    是一個台北由 Mat 發起的活動，Hychen 跟 Yuren 都會在這個活動中出現，歡迎當面遞送臭蟲。HacingThursday 每週四晚上會於特定咖啡店聚會。
+
+#. `Kalug 實體聚會 <http://kalug.linux.org.tw>`_:
+
+    KaLUG 是許多 Lazyscripts 開發者參與的聚會，包括Aminzai, Billy3321, Hychen, Yuren 都是此聚會的成員，而現在 Aminzai 與 Billy3321 (雨蒼) 會在這個聚會出現，如果您有臭蟲想親手遞交，請至 KaLUG 聚會 （高雄）。KaLUG 通常在每個月的第三個禮拜聚會。
+
+=========
+幫忙推廣
+=========
+
+* 介紹給其他人
+* 寫使用者文件
+* 翻譯成其他語言
+
+==============
+回報臭蟲(Bug)
+==============
+
+Lazyscripts 懶人包目前採用 google code 作為問題回報系統。
+若有任何問題請前往以下網址回報問題：
+
+* http://code.google.com/p/lazyscripts/issues/list
+
+本專案接受中、英文問題回報，但採用英文為較理想。
+
+=========
+貢獻源碼
+=========
+
+你發現問題了嗎？歡迎直接修改源碼！Lazyscripts 懶人包現在採用 github 管理源碼。請直接 fork 源碼進行修改。
+
+以下為兩個主要源碼庫：
+
+* 主程式: http://github.com/hychen/lazyscript/tree/master
+* scripts: http://github.com/billy3321/lazyscripts_pool_debian_ubuntu/tree/master 
+
+====
+贊助
+====
+
+Lazyscrtips 無需您花費任何金錢使用，但如果可以，請考慮捐贈少許金錢讓Lazyscripts變得更好。
+
+您可以考慮贊助：    
+
+* Lazyscripts 網址
+
+* 一杯咖啡 :)

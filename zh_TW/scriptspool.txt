@@ -1,0 +1,26 @@
+腳本庫(Scripts Pool)
+=====================
+
+=========================
+官方腳本庫(Scritps Pool)
+=========================
+
+* Ubuntu/Debian
+    * url:git://github.com/billy3321/lazyscripts_pool_debian_ubuntu.git
+    * 維護者：Billy
+
+* Ezgo 自由軟體光碟(Based On Ubuntu)
+    * url:git://github.com/hychen/lazyscripts_pool_debian_ubuntu.git
+    * 維護者：Hychen      
+       
+=========================
+自訂腳本庫(Scritps Pool)
+=========================
+
+===============================
+與上游腳本庫(Scripts Pool)同步
+===============================
+
+=================
+產生Scripts List
+=================
