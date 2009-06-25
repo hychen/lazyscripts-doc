@@ -1,26 +1,52 @@
 腳本庫(Scripts Pool)
 =====================
 
+容易更新，容易整合，可以做版本控管，而且速度要快!
+
+這是 Lazyscritps 對客製化腳本儲存媒介的最基本要求。我們得承認，Linux 並不完美，當安裝完後，並不像童話故事中的王子公主，從此過者美麗的生活，而是無盡調整的煩躁。
+
+why need to get new version
+
+why version control
+
+why need merge easy
+
 =========================
 官方腳本庫(Scritps Pool)
 =========================
 
-* Ubuntu/Debian
-    * url:git://github.com/billy3321/lazyscripts_pool_debian_ubuntu.git
-    * 維護者：Billy
+.. note:
 
-* Ezgo 自由軟體光碟(Based On Ubuntu)
-    * url:git://github.com/hychen/lazyscripts_pool_debian_ubuntu.git
-    * 維護者：Hychen      
-       
+    Suse 及 Fedora 支援正在開發中
+
+要讓 Lazyscritps 支援不同的 Linux 發行版本很簡單，只要換掉腳本庫(Scritps Pool)就好了，但前題是有人負責創建維護，各位有志之士，請拿出你的熱血來吧!!
+
+以下為目前支援的發行版本：
+
+* Ubuntu/Debian
+    * 位置: git://github.com/billy3321/lazyscripts_pool_debian_ubuntu.git
+    * 維護者： `Zhe-Wei Lin 林哲瑋 (billy3321,雨蒼) <http://billy3321.blogspot.com/>`_ <billy3321 at gmail.com>
+
+* Ezgo 自由軟體光碟(基於Ubuntu)
+    * 位置: git://github.com/hychen/lazyscripts_pool_debian_ubuntu.git
+    * 維護者： `Hsin Yi Chen 陳信屹 (hychen) <http://hychen.wuweig.org>`_ <ossug.hychen at gmail.com>
+
 =========================
 自訂腳本庫(Scritps Pool)
 =========================
+
+進行分支
+
+告知 URI
 
 ===============================
 與上游腳本庫(Scripts Pool)同步
 ===============================
 
+TBD
+
 =================
 產生Scripts List
 =================
+
+TBD

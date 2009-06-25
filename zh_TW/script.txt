@@ -8,8 +8,29 @@
 你需要一顆，虔誠的心…
 
 ================
-Script Category
+SHELL VARIABLES
 ================
+Variables is declear in startup.sh and bin/$DISTRIB_ID/startup.sh.
+Variables will be decleared at the fisrt stage which Lazyscripts run. It will catch the enviroment variables,
+and make a new file. After Lazyscripts get root permission, Lazyscripts will import the file and export the
+variables.
+
+You can use the following variables to distinguish the enviroment which your scripts run.
+
+* DISTRIB_ID: Linux 發佈版本名稱，例如 Fedora, Ubuntu 等。
+* DISTRIB_CODENAME: The codename of distribution, usually use in Fedora, Ubuntu and Debian, like hardy, lenny...etc
+* DISTRIB_VERSION: The version of distribution, use in Fedora and openSUSE, like 11.0, 11.1.
+* WIN_MGR: The window manager which in use, like Gnome or KDE. It will be set in openSUSE and Fedora only.
+* PLAT_NAME: The platform of OS. like i386, x86_64.
+* REPO_URL: The uri of scripts repository which in use, it's an ar`ray.
+* REPO_NUM: The number of scripts repository which in use.
+* REAL_USER: The user who run Lazyscripts.
+* REAL_HOME: The home of the user who run Lazyscripts.
+* WGET: wget with some arguments. "wget --tries=2 --timeout=120 -c"
+
+==========================
+腳本目錄 (Script Category)
+==========================
 
 * Accessories – ex.
 * Productivity – ex. vim, openoffice
@@ -25,20 +46,50 @@ Script Category
 * Customize – 加快開機速度
 * Localization- 中文化環境
 
+==========================
+腳本資訊 (Script Metadata)
+==========================
 
-================
-Script Metadata
-================
+所有的腳本資訊均以註解的方式撰寫在腳本內，以標示腳本的作者、用途、版權等額外資訊。
 
-* @name : script name.
-* @desc : script description.
-* @warn : script warning.
-* @category : script category id (defined by lazyscript team).
-* @maintaner : script maintaner.
-* @author : script author.
-* @license : script license.
-* @debian : script supports debian.
-* @ubuntu : script supports ubuntu.
-* @platform : support platform.
-* @child the : scripts need to run with
-* @hide : hide this item
+範例::
+
+    # @name_enUS 'english script name.'
+    # @name_zhTW '中文script名。'
+    # @desc_enUS 'English discription.
+    #            Second line.'
+    # @warn_enUS 'English warning.'
+    # @desc_zhTW '中文script說明
+    #             第2行'
+    # @warn_zhTW '中文警告'
+    # @category 'Custonmize'
+    # @maintainer '林哲瑋 Zhe-Wei Lin (billy3321,雨蒼) <billy3321 -AT- gmail.com>'
+    # @author '林哲瑋 Zhe-Wei Lin (billy3321,雨蒼) <billy3321 -AT- gmail.com>'
+    # @debian
+    # @ubuntu
+    # @platform 'i386 amd64'
+    # @child 'Common/add-apt-sources Common/debinstall.py'
+    # @hide
+
+
+**必須標示**
+
+* @name_[語系] : 名稱
+* @desc_[語系] : 描述
+
+* @category : 分類
+* @maintaner : 維護者
+* @author : 作者
+* @license : 版權
+
+**選擇標示**
+
+* @warn_[語系] : 警告
+* @hide : 不顯示在Lazyscritps主程式。
+* @interact : 需要使用者互動
+* @debian : 支援Debian
+* @ubuntu : 支援Ubuntu
+* @platform : 支援平台 (x86, amd64)
+* @child : 相依腳本
+
+    例：@child 'Internet/ie6.sh Internet/after_ie6.sh'

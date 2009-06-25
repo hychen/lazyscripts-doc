@@ -169,7 +169,7 @@ htmlhelp_basename = 'Lazyscriptsdoc'
 # (source start file, target name, title, author, document class [howto/manual]).
 latex_documents = [
   ('index', 'Lazyscripts.tex', ur'Lazyscripts Documentation',
-   ur'Hsin Yi Chen (陳信屹)', 'manual'),
+   ur'Hsin Yi Chen 陳信屹 (hychen)', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of

@@ -24,7 +24,7 @@ Ubuntu 後，使用者往往還需要一番調校。
 Lazybuntu 以及後來的 Lazyscripts 最重要的開發目的。
 
 截至目前為止，Lazyscripts 支援 Ubuntu、Debian 等distrobution，可以
-協助使用者設定網路、套件庫、設定好完善的中文環境、解決影音解碼、DVD 
+協助使用者設定網路、套件庫、設定好完善的中文環境、解決影音解碼、DVD
 播放等各種常見問題、並安裝一些好用的常用軟體，將預設的 Linux 安裝，
 調校成符合臺灣地區使用習慣的狀態。
 
@@ -50,7 +50,7 @@ Lazybuntu 以及後來的 Lazyscripts 最重要的開發目的。
     如果您是進階使用者，未來Lazyscripts也提供幾個簡單步驟，讓您自訂專屬
     於你自己的scripts。也就是說，使用者對於懶人包所連結的軟體選項，是可
     以自由修改的。例如，您可以自行定義與客製化組合辦公室或班級內所需要的
-    Lazyscripts。這樣一份專屬的「軟體清單」懶人包，無疑造福更多的使用者。
+    Lazyscripts。
 
 =========
 系統需求
@@ -59,12 +59,12 @@ Lazybuntu 以及後來的 Lazyscripts 最重要的開發目的。
 * 必須安裝
 
     * GNU/Linux 發行套件
-    
+
         * Ubuntu 8.10 或 Ubuntu 9.04 桌面版本 AMD/x86
         * Debian Lenny 安裝標準桌面環境 (目前僅測試過 x86)
 
     * `Git <http://git-scm.com/>`_
- 
+
     * `Python 2.6 以上 <http://www.python.org>`_
 
     * `GitPython - Git Python Bidding Module <http://gitorious.org/projects/git-python/>`_
@@ -83,7 +83,7 @@ Lazybuntu 以及後來的 Lazyscripts 最重要的開發目的。
 
 Lazyscripts 需要網路才可以使用，請務必確認您執行以下步驟時有網路連線可用。現在 Lazyscripts 提供與 lazybuntu 相同的簡易安裝方式。請先至以下網址：
 
-* http://code.google.com/p/lazyscripts/ 
+* http://code.google.com/p/lazyscripts/
 
 右邊有個 Featured downloads 的區塊，請依照你的 CPU 架構選擇下載。如果你不知道你的 CPU 架構，請選擇 i386 版本。
 
@@ -104,4 +104,3 @@ Lazyscripts 需要網路才可以使用，請務必確認您執行以下步驟�
 .. image:: image/userinterface.jpg
 
 只要下載 Lazyscripts，解壓縮，並雙擊後即可執行。接著只要依據軟體的分類屬性，適當地勾選您要安裝／不安裝的軟體選項，並按下最下方的套用鍵即可。畫面上的終端機（Terminal）就會幫您下載與安裝您所規劃組合的軟體套件，從安裝 Lazyscripts 到挑選軟體，到開始安裝選定的軟體，大約於 3 分鐘內應該可以完成
-

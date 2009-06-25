@@ -1,11 +1,45 @@
 概念
 ========
 
-Lazyscripts 為延續 Lazybuntu 的易用性，在使用者介面上幾乎完全保留，
-使用過Lazybuntu的使用者，除了進階功能，不需要再花心力學習新的操作方式。
-而在介面下隱藏的卻是腳本散佈，控管的複雜設計，目前雖非盡善盡美，但已略達到原先設計初衷。
+Lazyscripts 為延續 Lazybuntu 的易用性，在使用者介面上幾乎完全保留，使用過Lazybuntu的使用者，除了進階功能，不需要再花心力學習新的操作方式。而在介面下隱藏的卻是腳本散佈，控管的複雜設計，目前雖非盡善盡美，但已略達到原先設計初衷。
 
 本章節將說明 Lazyscritps 的系統模型，魔鬼，都隱藏在細節裡。
+
+=========
+名詞定義
+=========
+
+腳本 (Script)
+
+  安裝套件、客製作業系統。
+
+腳本庫 (Scritps Pool)
+
+  存放腳本。
+
+腳本清單 (Scripts List)
+
+  控制Lazyscritps可以使用的腳本版本。
+
+使用者 (End User)
+
+  使用Lazyscripts進行客製化安裝。
+
+腳本開發者 (Scripts Developer)
+
+  使用任何程式語言開發安裝或客制化腳本。
+
+腳本庫維護者 (Scripts Pool Mantainer)
+
+  接受、審核腳本提交，並製作Scripts List。
+
+主程式開發者 (Core Developer)
+
+  開發、修正主程式、文件撰寫。
+
+社交網站 (Lazyscripts Social Web)。
+
+  類似GitHub的Script code hosting (尚未實作)。
 
 =========
 系統架構
@@ -17,27 +51,14 @@ Lazyscripts 為延續 Lazybuntu 的易用性，在使用者介面上幾乎完全
 
 .. image:: image/lazyscripts_model.jpg
 
-
-使用者 (End User)
-
-   desc
-
-腳本開發者 (Scripts Developer)
-
-   desc
-
-腳本庫維護者 (Scripts Pool Mantainer)
-
-   desc
-
-主程式開發者 (Core Developer)
-    
-        desc
-
 =========================
 腳本(Script)版本控制模型
 =========================
 
+TBD
+
 =====================
 腳本(Script)散佈模型
 =====================
+
+TBD
