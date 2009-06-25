@@ -45,7 +45,7 @@ Lazyscripts 懶人包目前採用 google code 作為問題回報系統。
 以下為兩個主要源碼庫：
 
 * 主程式: http://github.com/hychen/lazyscript/tree/master
-* scripts: http://github.com/billy3321/lazyscripts_pool_debian_ubuntu/tree/master 
+* scripts: http://github.com/billy3321/lazyscripts_pool_debian_ubuntu/tree/master
 
 ====
 贊助
@@ -53,8 +53,7 @@ Lazyscripts 懶人包目前採用 google code 作為問題回報系統。
 
 Lazyscrtips 無需您花費任何金錢使用，但如果可以，請考慮捐贈少許金錢讓Lazyscripts變得更好。
 
-您可以考慮贊助：    
+您可以考慮贊助：
 
-* Lazyscripts 網址
-
+* Lazyscripts 網址 http://lazyscripts.org
 * 一杯咖啡 :)

@@ -7,26 +7,21 @@
 
 你需要一顆，虔誠的心…
 
-================
-SHELL VARIABLES
-================
-Variables is declear in startup.sh and bin/$DISTRIB_ID/startup.sh.
-Variables will be decleared at the fisrt stage which Lazyscripts run. It will catch the enviroment variables,
-and make a new file. After Lazyscripts get root permission, Lazyscripts will import the file and export the
-variables.
+==========================
+環境變數 (SHELL VARIABLES)
+==========================
 
-You can use the following variables to distinguish the enviroment which your scripts run.
+Lazyscripts 在執行初期會產生一個新檔案，並暫存當下的環境變數。
+當 Lazyscritps 獲得 root 權限，便能從從這個新檔案讀回之前預存的變數。
 
-* DISTRIB_ID: Linux 發佈版本名稱，例如 Fedora, Ubuntu 等。
-* DISTRIB_CODENAME: The codename of distribution, usually use in Fedora, Ubuntu and Debian, like hardy, lenny...etc
-* DISTRIB_VERSION: The version of distribution, use in Fedora and openSUSE, like 11.0, 11.1.
-* WIN_MGR: The window manager which in use, like Gnome or KDE. It will be set in openSUSE and Fedora only.
-* PLAT_NAME: The platform of OS. like i386, x86_64.
-* REPO_URL: The uri of scripts repository which in use, it's an ar`ray.
-* REPO_NUM: The number of scripts repository which in use.
-* REAL_USER: The user who run Lazyscripts.
-* REAL_HOME: The home of the user who run Lazyscripts.
-* WGET: wget with some arguments. "wget --tries=2 --timeout=120 -c"
+* DISTRIB_ID： Linux 發佈版本名稱，例如 Fedora, Ubuntu 等。
+* DISTRIB_CODENAME： 版本名，用於 Fedora、Ubuntu、Debain 例如 hardy, lenny。
+* DISTRIB_VERSION： 發佈版本編號，用於 Fedora、openSUSE 例如 11.0, 11.1。
+* WIN_MGR： 使用的視窗管理員(Window Manater)，例如 Gnome 或 KDE。
+* PLAT_NAME： 硬體平台名稱，例如 i386、x86_64。
+* REAL_USER： 執行Lazyscripts的使用者ID。
+* REAL_HOME： 執行Lazyscripts的使用者家目錄位置。
+* WGET："wget --tries=2 --timeout=120 -c"
 
 ==========================
 腳本目錄 (Script Category)
@@ -90,6 +85,6 @@ You can use the following variables to distinguish the enviroment which your scr
 * @debian : 支援Debian
 * @ubuntu : 支援Ubuntu
 * @platform : 支援平台 (x86, amd64)
-* @child : 相依腳本
+* @child : 相依腳本，需標明腳本路徑，而非腳本檔名。
 
     例：@child 'Internet/ie6.sh Internet/after_ie6.sh'
