@@ -5,12 +5,6 @@
 
 這是 Lazyscritps 對客製化腳本儲存媒介的最基本要求。我們得承認，Linux 並不完美，當安裝完後，並不像童話故事中的王子公主，從此過者美麗的生活，而是無盡調整的煩躁。
 
-why need to get new version
-
-why version control
-
-why need merge easy
-
 =========================
 官方腳本庫(Scritps Pool)
 =========================
@@ -35,9 +29,7 @@ why need merge easy
 自訂腳本庫(Scritps Pool)
 =========================
 
-進行分支
-
-告知 URI
+TBD
 
 ===============================
 與上游腳本庫(Scripts Pool)同步

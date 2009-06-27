@@ -27,17 +27,19 @@ Lazyscripts 0.1 多了什麼?
 感謝 `Honkia <http://pdtw.blogspot.com/>`_
 為新生的Lazyscrtipts 設計Logo。
 
+.. image:: ../image/lazyscripts_logo.jpg
+
 =====================
 更彈性化的系統架構
 =====================
 
-現在的lazyscripts裡面的結構已經全部更新，現在變得更容易將客製化的腳本(scripts)放入其中，下一個版本的 lazyscripts 可以更容易的置換腳本來源。
+現在的lazyscripts裡面的結構已經全部更新，現在變得更容易將客製化的腳本(scripts)放入其中，下一個版本的Lazyscripts可以更容易的置換腳本來源。
 
 =====================
 自動更新腳本 (Script)
 =====================
 
-Lazyscripts 全部的腳本 (script) 將會從網路上直接更新，當您每次執行主程式時，都會從網路上自動下載最新的 scripts。
+Lazyscripts全部的腳本(script)將會從網路上直接更新，當您每次執行主程式時，都會從網路上自動下載最新的scripts。
 
 =====================
 新支援的Linux發行版本

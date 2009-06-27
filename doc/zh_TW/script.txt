@@ -5,10 +5,14 @@
 如何撰寫腳本(Script)
 =====================
 
-你需要一顆，虔誠的心…
+寫出自己的scripts不難，你只要注意以下幾點就好。
+
+#. 使用scripting language來撰寫。如bash shell，perl，python 均可。
+#. 注意meta data格式。在執行時期，lazyscripts會將您執行所需要的scripts放到同一目錄。因此只要引用當前目錄即可。
+#. 變數環境。 Lazyscripts提供一些好用的環境變數，在Lazyscripts執行期間可讓scripts自由取用。
 
 ==========================
-環境變數 (SHELL VARIABLES)
+環境變數 (Shell Variable)
 ==========================
 
 Lazyscripts 在執行初期會產生一個新檔案，並暫存當下的環境變數。
@@ -27,17 +31,18 @@ Lazyscripts 在執行初期會產生一個新檔案，並暫存當下的環境�
 腳本目錄 (Script Category)
 ==========================
 
-* Accessories – ex.
-* Productivity – ex. vim, openoffice
-* Graphics – ex.gimp
-* Development – ex. eclipse
-* Entertain – ex. mplayer,miro
-* InfoManagement – ex. sunbird, gnucash
-* Games – ex. gweled
-* Hardware – laptop customize script.
-* Multimedia – gstream
-* Networking – ex. firefox, pidgin, ie6, skype, pcman
-* System
+當你提交腳本給腳本庫維護者時，腳本維護者會依據你腳本的性質放入相對應的腳本目錄。
+
+* Productivity – 辦公室相關：例： vim, openoffice
+* Graphics – 繪圖：gimp
+* Development – 程式開發相關： eclipse
+* Entertain – 娛樂相關：例：mplayer,miro
+* InfoManagement – 資訊管理相關 例： sunbird, gnucash
+* Games – 遊戲： 例：gweled
+* Hardware – 硬體相關 例：IBM小紅點靈敏度。
+* Multimedia – 多媒體相關 例： gstream
+* Networking – 網路相關 ex. firefox, pidgin, ie6, skype, pcman
+* System - 系統相關
 * Customize – 加快開機速度
 * Localization- 中文化環境
 

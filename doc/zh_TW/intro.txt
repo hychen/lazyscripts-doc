@@ -77,9 +77,9 @@ Lazybuntu 以及後來的 Lazyscripts 最重要的開發目的。
 
     * `Sphinix - Python Document Creator <http://sphinx.pocoo.org/index.html>`_
 
-=================================
-如何安裝 Lazyscripts 主程式
-=================================
+======================
+如何安裝 Lazyscripts
+======================
 
 Lazyscripts 需要網路才可以使用，請務必確認您執行以下步驟時有網路連線可用。現在 Lazyscripts 提供與 lazybuntu 相同的簡易安裝方式。請先至以下網址：
 
@@ -91,9 +91,9 @@ Lazyscripts 需要網路才可以使用，請務必確認您執行以下步驟�
 
 如果您是第一次使用 Lazyscripts，必需要等待一段時間讓 Lazyscripts 安裝必要軟體，請耐心等候。待 Lazyscripts 使用介面出來後，即可勾選你需要的功能，並且按下確定執行。
 
-============================
+=======================
 如何使用 Lazyscripts
-============================
+=======================
 
 .. note::
 

@@ -13,6 +13,7 @@ Lazyscripts 文件
     whatsnew/*
     intro
     concept
+    core
     script
     scriptspool
     gettinginvolved

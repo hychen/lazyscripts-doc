@@ -1,0 +1,106 @@
+簡介
+====
+
+Lazyscripts於2009年4月1日正式釋出，接替原本Lazybuntu的維護，
+除了部份GUI的程式碼，及客製化Scripts仍延用外，核心架構及程式
+碼幾乎全部改寫。
+
+Lazybuntu 是由 PCMan 於 2007/09/25 發起，起因為 Ubuntu 雖然是
+對初學者非常友善的 Linux 發行套件，但是仍然有許多未盡完美之處
+，尤其在中文環境的方面，雖然 Ubuntu 的開發者花了不少功夫，仍然
+不夠符合臺灣使用的習慣，預設的安裝也缺少一些國人常用的中文軟體。
+
+此外，有些多媒體相關的軟體，因為某些法律上的爭議，和牽涉到一些專
+利的問題，無法被 Ubuntu 官方套件收錄，但是這些套件卻是平日使用桌
+面系統不可或缺的，例如 MP3 解碼，DVD 播放等重要功能，所以安裝好
+Ubuntu 後，使用者往往還需要一番調校。
+
+既然這些調教，是許多使用者裝好 Ubuntu 之後，第一件會想做的事情，
+那與其讓初學者去搜尋文件看半天，為何不讓工具程式來代勞呢？在這樣
+的想法之下，臺灣有許多網友，陸續提供了一些系統調校的小程式。 這些
+小程式雖然解決了部份的問題，但是操作需要打指令，使用起來也不夠有
+彈性。於是提供操作簡單的圖形介面，讓使用者只要動動滑鼠，在無需閱
+讀文件或輸入指令的情況下，就可以輕鬆解決安裝後大部分的問題，便是
+Lazybuntu 以及後來的 Lazyscripts 最重要的開發目的。
+
+截至目前為止，Lazyscripts 支援 Ubuntu、Debian 等distrobution，可以
+協助使用者設定網路、套件庫、設定好完善的中文環境、解決影音解碼、DVD
+播放等各種常見問題、並安裝一些好用的常用軟體，將預設的 Linux 安裝，
+調校成符合臺灣地區使用習慣的狀態。
+
+而除了原本 Lazybuntu 擁有的功能外，Lazyscripts 更強化了客製化腳本
+(Script)的管理方式，使Scripts 更容易分享、取得、合併，並且擁有更大
+的彈性以應付依不同的客製目的。
+
+====
+特色
+====
+
+* 不需頻繁更新主程式：
+
+    新版的Lazyscripts不再將 scripts與主程式合併釋出。Lazyscripts懶人包
+    只包含主程式，所有的功能會在執行時才從網路下載。而整個程式架構也分
+    成了使用者介面（GUI）、程式核心（Core）、以及功能（Scripts）。
+
+    功能將會隨著維護者的新增而更新，重新執行程式即可更新，不需要更新主
+    程式。
+
+* 用戶可隨意自訂Scripts：
+
+    如果您是進階使用者，未來Lazyscripts也提供幾個簡單步驟，讓您自訂專屬
+    於你自己的scripts。也就是說，使用者對於懶人包所連結的軟體選項，是可
+    以自由修改的。例如，您可以自行定義與客製化組合辦公室或班級內所需要的
+    Lazyscripts。
+
+=========
+系統需求
+=========
+
+* 必須安裝
+
+    * GNU/Linux 發行套件
+
+        * Ubuntu 8.10 或 Ubuntu 9.04 桌面版本 AMD/x86
+        * Debian Lenny 安裝標準桌面環境 (目前僅測試過 x86)
+
+    * `Git <http://git-scm.com/>`_
+
+    * `Python 2.6 以上 <http://www.python.org>`_
+
+    * `GitPython - Git Python Bidding Module <http://gitorious.org/projects/git-python/>`_
+
+* 開發者安裝
+
+    * `Nose - Python Testing Framwork <http://code.google.com/p/python-nose/>`_
+
+    * `make - GNU make utility to maintain groups of programs <http://www.gnu.org/software/automake/>`_
+
+    * `Sphinix - Python Document Creator <http://sphinx.pocoo.org/index.html>`_
+
+======================
+如何安裝 Lazyscripts
+======================
+
+Lazyscripts 需要網路才可以使用，請務必確認您執行以下步驟時有網路連線可用。現在 Lazyscripts 提供與 lazybuntu 相同的簡易安裝方式。請先至以下網址：
+
+* http://code.google.com/p/lazyscripts/
+
+右邊有個 Featured downloads 的區塊，請依照你的 CPU 架構選擇下載。如果你不知道你的 CPU 架構，請選擇 i386 版本。
+
+下載完畢後，開啟檔案管理員到你下載的目錄，並且對壓縮檔按下右鍵，並且選擇『在此解壓縮』。解壓縮完畢後，會有一個 lazyscript 執行檔，雙擊執行即可。
+
+如果您是第一次使用 Lazyscripts，必需要等待一段時間讓 Lazyscripts 安裝必要軟體，請耐心等候。待 Lazyscripts 使用介面出來後，即可勾選你需要的功能，並且按下確定執行。
+
+=======================
+如何使用 Lazyscripts
+=======================
+
+.. note::
+
+    Lazyscripts 需要網路。
+
+簡單到不能再簡單的介面。
+
+.. image:: image/userinterface.jpg
+
+只要下載 Lazyscripts，解壓縮，並雙擊後即可執行。接著只要依據軟體的分類屬性，適當地勾選您要安裝／不安裝的軟體選項，並按下最下方的套用鍵即可。畫面上的終端機（Terminal）就會幫您下載與安裝您所規劃組合的軟體套件，從安裝 Lazyscripts 到挑選軟體，到開始安裝選定的軟體，大約於 3 分鐘內應該可以完成

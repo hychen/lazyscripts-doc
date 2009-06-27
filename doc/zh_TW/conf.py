@@ -42,7 +42,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Lazyscripts'
-copyright = u'2009, Hsin Yi Chen (陳信屹)'
+copyright = u'2009, Lazyscripts Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -169,7 +169,7 @@ htmlhelp_basename = 'Lazyscriptsdoc'
 # (source start file, target name, title, author, document class [howto/manual]).
 latex_documents = [
   ('index', 'Lazyscripts.tex', ur'Lazyscripts Documentation',
-   ur'Hsin Yi Chen 陳信屹 (hychen)', 'manual'),
+   ur'Lazyscripts Team', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -187,4 +187,4 @@ latex_documents = [
 #latex_appendices = []
 
 # If false, no module index is generated.
-#latex_use_modindex = True
+#latex_use_modindex = False
