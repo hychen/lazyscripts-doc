@@ -16,6 +16,10 @@ Thin clinet 負責的任務為：
 為什麼我們用 Python 呢? 因為愛!
 為什麼我們用 Git 呢? 因為愛!
 
+**取得源碼** ::
+
+    user@host$ git clone git://github.com/hychen/lazyscript.git
+
 **準備開發環境** ::
 
     user@host$ make init_devenv

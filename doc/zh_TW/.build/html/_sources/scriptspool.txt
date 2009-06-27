@@ -22,23 +22,85 @@
     * 維護者： `Zhe-Wei Lin 林哲瑋 (billy3321,雨蒼) <http://billy3321.blogspot.com/>`_ <billy3321 at gmail.com>
 
 * Ezgo 自由軟體光碟(基於Ubuntu)
-    * 位置: git://github.com/hychen/lazyscripts_pool_debian_ubuntu.git
+    * 位置: git://github.com/hychen/lazyscripts_pool_debian_ubuntu_edu.git
     * 維護者： `Hsin Yi Chen 陳信屹 (hychen) <http://hychen.wuweig.org>`_ <ossug.hychen at gmail.com>
 
 =========================
 自訂腳本庫(Scritps Pool)
 =========================
 
-TBD
+.. note::
+
+    自訂腳本庫的功能還未非常完善，因此可能會大幅度變動。
+
+你必須知道如何使用git，並且建議使用 gitk 來觀察分支情形。這邊以 Ezgo 腳本庫為例：
+
+#. create empty repo ::
+
+    user@host$ mkdir lz_scriptspool_edu
+
+    user@host$ cd lz_scriptspool_edu
+
+    user@host$ git init
+
+#. add oringinal repo url ::
+
+    user@host$ git repo add origin git@github.com:hychen/lazyscripts_pool_debian_ubuntu_edu.git
+
+#. add new upstream repo url  ::
+
+    user@host$ git repo add upstream git://github.com/billy3321/lazyscripts_pool_debian_ubuntu.git
+
+#. fetch ::
+
+    user@host$ git fetch upstream
+
+#. checkout ::
+
+    user@host$ git checkout upstream/stable -b master
+
+#. work
+
+#. commit and push back ::
+
+    user@host$ git commit -a
+
+    user@host$ git push master origin
 
 ===============================
 與上游腳本庫(Scripts Pool)同步
 ===============================
 
-TBD
+#. Fetching upstream git index ::
+
+    user@host$ git fetch upstream
+
+#. Merge or Rebase ::
+
+    user@host$ git merge upstream/stable
+
+#. Push back ::
+
+    user@host$ git push master origin
 
 =================
 產生Scripts List
 =================
 
-TBD
+#. add repo url to lazyscritps ::
+
+    # put new repo url to this file.
+    user@host$ vi conf/repository.conf
+
+    user@host$ cat conf/repository.conf
+    git://github.com/hychen/lazyscripts_pool_debian_ubuntu_edu.git
+
+#. build scripts list ::
+
+    user@host$ ./bin/slzs list build git://github.com/hychen/lazyscripts_pool_debian_ubuntu_edu.git
+
+#. edit scripts list to set default selected scripts. ::
+
+    user@host$ ./devtools/scriptslist_editor.py
+
+#. commit and put scripts.list to repository.

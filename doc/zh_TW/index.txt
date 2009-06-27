@@ -17,7 +17,7 @@ Lazyscripts 文件
     script
     scriptspool
     gettinginvolved
-    copyright
+    appendix
 
 .. Indices and tables
 .. ==================
