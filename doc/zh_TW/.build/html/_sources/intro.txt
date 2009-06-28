@@ -53,6 +53,27 @@ Lazybuntu 以及後來的 Lazyscripts 最重要的開發目的。
     Lazyscripts。
 
 =========
+發行方式
+=========
+
+開發團隊進行開發一陣子後，便會釋出Alpha版提供主程式開發者(Core Developer)、腳本庫維護者(Scripts Pool Mantainer)、腳本開發者(Script Developer)做整合測試。在開發
+團隊確認整合測試沒有太大的問題後，便會釋出發行候選版本(rcN)，給使用者(End User)y做使用者測試，提供反饋，此時為重複週期，一直到開發團隊認為Lazyscripts可以發行正式版，以X.Y編號釋出。
+
+版本編號說明：
+
+* Alpha: 提供開發者整合測試版
+    Lazyscripts 0.1alpha
+* rcN: 發行候選測試版
+    Lazyscripts 0.1rc1
+* X.Y: 正式發行版
+    Lazyscripts 0.1
+* X.Y.Z: 修正版，Z代表第幾次修正。
+    Lazyscripts 0.1.1
+* 特別版：特殊用途
+    Lazyscripts ezgo
+
+
+=========
 系統需求
 =========
 
@@ -76,6 +97,7 @@ Lazybuntu 以及後來的 Lazyscripts 最重要的開發目的。
     * `make - GNU make utility to maintain groups of programs <http://www.gnu.org/software/automake/>`_
 
     * `Sphinix - Python Document Creator <http://sphinx.pocoo.org/index.html>`_
+    * `PyGTK - GTK+ for Python <http://www.pygtk.org/>`_
 
 ======================
 如何安裝 Lazyscripts

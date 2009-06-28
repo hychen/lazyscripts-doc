@@ -11,7 +11,7 @@
 
 .. note:
 
-    Suse 及 Fedora 支援正在開發中
+    Suse, Arch 及 Fedora 支援正在開發中
 
 要讓 Lazyscritps 支援不同的 Linux 發行版本很簡單，只要換掉腳本庫(Scritps Pool)就好了，但前題是有人負責創建維護，各位有志之士，請拿出你的熱血來吧!!
 
