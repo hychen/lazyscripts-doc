@@ -1,7 +1,7 @@
 Lazyscripts 0.1 多了什麼?
 =========================
 
-本文件說明在2009年7月1號發行的 Lazyscripts 0.1版多了什麼新功能。
+本文件說明在2009年7月7號發行的 Lazyscripts 0.1版多了什麼新功能。
 
 本文件會概括性介紹 Lazyscripts 0.1 發行版 ，但並不會詳細描述新功能，
 欲知更多細節請閱讀 Lazyscripts 0.1 使用文件。
@@ -58,9 +58,9 @@ Lazyscripts全部的腳本(script)將會從網路上直接更新，當您每次�
 開發方式變更
 =============
 
-* 程式碼採用Git管理
+* 程式碼採用Git管理，並放在 http://www.github.com 上。
 
-* 採用Google code作為專案管理工具
+* 主網站移到 http://sourceforge.net/projects/lazyscripts/
 
 * 採用 Sphinix 作為文件撰寫工具
 

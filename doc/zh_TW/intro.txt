@@ -105,9 +105,9 @@ Lazybuntu 以及後來的 Lazyscripts 最重要的開發目的。
 
 Lazyscripts 需要網路才可以使用，請務必確認您執行以下步驟時有網路連線可用。現在 Lazyscripts 提供與 lazybuntu 相同的簡易安裝方式。請先至以下網址：
 
-* http://code.google.com/p/lazyscripts/
+* https://sourceforge.net/projects/lazyscripts/files
 
-右邊有個 Featured downloads 的區塊，請依照你的 CPU 架構選擇下載。如果你不知道你的 CPU 架構，請選擇 i386 版本。
+請依照你的 CPU 架構選擇下載。如果你不知道你的 CPU 架構，請選擇 i386 版本。
 
 下載完畢後，開啟檔案管理員到你下載的目錄，並且對壓縮檔按下右鍵，並且選擇『在此解壓縮』。解壓縮完畢後，會有一個 lazyscript 執行檔，雙擊執行即可。
 

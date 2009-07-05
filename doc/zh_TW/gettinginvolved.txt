@@ -29,10 +29,10 @@
 回報臭蟲(Bug)
 ==============
 
-Lazyscripts 懶人包目前採用 google code 作為問題回報系統。
+Lazyscripts 懶人包目前採用 sf.net tracker 作為問題回報系統。
 若有任何問題請前往以下網址回報問題：
 
-* http://code.google.com/p/lazyscripts/issues/list
+* http://sourceforge.net/tracker/?group_id=267618
 
 本專案接受中、英文問題回報，但採用英文為較理想。
 

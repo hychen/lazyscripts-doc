@@ -55,10 +55,50 @@ Lazyscripts 為延續 Lazybuntu 的易用性，在使用者介面上幾乎完全
 腳本(Script)版本控制模型
 =========================
 
-TBD
+.. note::
+
+    閱讀本本章節前，必須熟捻Git的版本模型。
+
+Lazyscripts 啟動後，會讀取腳本清單(Scripts List)得知所選用的腳本版本(Commit Id)，並且從腳本庫取出Scritps實體，腳本庫(Scripts Pool)其實就是一個Git Repository，
+而檔案(Git Blob)視為腳本(Script)，目錄(Git Tree)被視為一個腳本集合(Scritp Set)。
+腳本集合(Script Set)可以用很多Script(Git Blob)。
+
+所有的腳本庫(Scritps Pool)必須要有兩個branch - master, stable，以方便腳本開發控管，Lazysripts 在執行時，預設會採用stable branch的腳本，除非腳本清單(Scripts List)有另外指定，可參閱下圖了解完整的流程。
+
+.. image:: image/lazyscripts_scriptversion_model.jpg
+
+**分支目的說明**
+
+#. master:
+
+    開發中的腳本(Script)。
+
+#. stable:
+
+    經過測試，穩定版本的腳本(Script)。
 
 =====================
 腳本(Script)散佈模型
 =====================
 
-TBD
+.. note::
+
+    閱讀本章節前，必須熟捻Git專案管理方式。
+
+.. image:: image/lazyscripts_scriptspool_model.jpg
+
+Fork 意味著製作腳本庫分支，除了保留上游腳本庫(Scripts Pool)大多數的腳本(Script)外，新的腳本庫分支還會擁有為特定目的所收納的腳本(Script)。
+
+腳本庫(Scripts Pool)通常會因下列原因而進行Fork。
+
+#. 不同Linux發行版本
+
+    Ubuntu/Debian、Fedora、OpenSuse、等等
+
+#. 相同Linux發行版本，但是因不同語系的使用者而Fork。
+
+    中文使用者、英文使用者、日文使用者等等...
+
+#. 相同Linux發行版本，但是因不同背景的使用者而Fork。
+
+    教育背景使用者、數位藝術背景使用者、音樂創作背景使用者等等...
