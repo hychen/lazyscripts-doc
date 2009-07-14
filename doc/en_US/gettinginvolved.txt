@@ -1,0 +1,62 @@
+Howto help
+=============
+
+The famous developer Eric Raymond said `'
+Lazy team like to interact with our users, we hope user can share with us your suggestion and experience.
+
+You can reach us at
+
+#. IRC: irc.freenode.net #lazyscripts
+
+#. `Lazyscripts Developer Mailing List <http://groups.Google.com/group/lazyscripts-dev/>`_:
+
+#. `HackingThursday Meeting <http://hack.ingday.org>`_:
+
+   Initiated by Mat at Taipei, hychen and Yuren usually come to this meeting every week, please feel free to join us.
+   The meeting is hold every thursday at a cafe in Taipei city.
+
+#. `Kalug Meetings <http://kalug.linux.org.tw>`_:
+
+    Many Lazyscripts developers participate in KaLUG meeting, including Aminzai, Billy3321, Hychen and Yuren. Aminzai and Billy3321 usually attend to this meeting, you are free to join this meeting. KaLUG usually hold at third week of each month in Kaohsiung.
+
+=============
+Promotion
+=============
+
+You can help us to promote this project by:
+* Introduce this project to the others
+* Writing documents for users.
+* Translation
+
+=============
+Report bug
+=============
+
+Lazyscripts's issue tracking system is hosted at Google Code.
+You can report bugs or problems at this url
+
+* http://code.google.com/p/lazyscripts/issues/list
+
+We accept Chinese and English for bugreport, but please try to use English if you can.
+
+=============
+Contribute
+=============
+
+Did you find a problem? You are welcome to fix it! The source code of Lazyscripts are hosted at github, you are free to fork for your own modification.
+
+Here are two major repository:
+
+* Core program: http://github.com/hychen/lazyscript/tree/master
+* scripts: http://github.com/billy3321/lazyscripts_pool_debian_ubuntu/tree/master
+
+========
+Donate
+========
+
+Lazyscrtips does not ask you for any cents. But if you like, please donate to make Lazyscripts better.
+
+You can donate us via
+
+* Lazyscripts - http://lazyscripts.org
+* A coffee :)

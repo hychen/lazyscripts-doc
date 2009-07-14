@@ -1,0 +1,36 @@
+Core program
+================
+
+You can consider the core program is a thin client.
+
+The task of thin client are:
+
+#. Retrieve script list, setup script pool and download the script sources.
+#. Update the scripts in script pool.
+#. Provide the scripts interface for users, who can use them to install or customize software.
+
+===========================================
+How to develop the core program.
+===========================================
+
+  Why we use Python ? 
+  Because LOVE!
+
+  Why we use Git ? 
+  Because LOVE!
+
+**Get the source code** ::
+
+    user@host$ git clone git://github.com/hychen/lazyscript.git
+
+**Development environment** ::
+
+    user@host$ make init_devenv
+
+**Do unit test**::
+
+    # Quite mode
+    user@host$ make test
+
+    # Verbose mode.
+    user@host$ make devtest
