@@ -5,13 +5,13 @@ More easy to update! More easy to integrate! Version control for scripts, and mu
 
 This is the basic requirement for lazyscript. We acknowledged Linux Desktop is not prefect. It's not like fairy tale, you live happily ever after, instead, it's more like fidgety and no-ending fine tune.
 
-============================
-Scritps Pool
-============================
+============
+Scripts Pool
+============
 
 .. note:
 
-    Support for SuSE and Fedora are under development.
+    Support for SuSE, Arch Linux and Fedora are under development.
 
 It's very easy to let Lazyscripts to support different Linux distribution, you only need to replace the scripts pool. It only need someone to create and maintain the pool. Volunteers, let's do it with heart afire.
 
@@ -26,7 +26,7 @@ Here are the current supported distributions:
     * Maintainer： `Hsin Yi Chen 陳信屹 (hychen) <http://hychen.wuweig.org>`_ <ossug.hychen at gmail.com>
 
 =============================
-Customize Scritps Pool
+Customize Scripts Pool
 =============================
 
 .. note::
@@ -61,7 +61,7 @@ You need to understand how to use git, we suggest you use gitk for repository ma
 
 #. work
 
-#. commit and push back ::
+#. commit and push back to remote git repository::
 
     user@host$ git commit -a
 
@@ -79,7 +79,7 @@ Sync with upstream scripts Pool
 
     user@host$ git merge upstream/stable
 
-#. Push back ::
+#. Push back to remote git repository ::
 
     user@host$ git push master origin
 

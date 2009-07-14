@@ -34,3 +34,19 @@ How to develop the core program.
 
     # Verbose mode.
     user@host$ make devtest
+
+======================================
+How to build a self-extracting program
+======================================
+
+Choose the tag or branch you like to use ::
+
+    user@host$ ./devtools/build/build.sh
+    Please type version: v0.1rc2
+    sfx.c: In function ‘show_error’:
+    sfx.c:41: warning: format not a string literal and no format arguments
+
+The generate files will be put in *devtools/build* ::
+
+    user@host$ ls devtools/build/
+    build.sh  lazyscripts-v0.1rc2.tar.gz  sfx.c

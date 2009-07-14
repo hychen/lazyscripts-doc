@@ -1,7 +1,7 @@
 Introduction
 ================
 
-Lazyscripts was released at Arpia 1st 2009, as a replacement of Lazyubuntu. All most all the source code including core framework have been rewritten, expected for some GUI and customize scripts.
+Lazyscripts was released at April 1st 2009, as a replacement of Lazyubuntu. All most all the source code including core framework have been rewritten, expected for some GUI and customize scripts.
 
 Lazybuntu was initiated by PCMan at 2009/09/25. The idea is to help Ubuntu users install and use the software. Even though Ubuntu is a very friendly Linux distribution for end users, but there are still many imperfection, especially for Chinese desktop environment, all through Ubuntu developers has already put many works on these issue, but still can not meet the common usage behavior of Taiwanese users, the default installation also leaks some common Chinese software.
 
@@ -9,9 +9,28 @@ Furthermore, there are multimedia related software are not included in Ubuntu of
 
 Since these adjustments are the first thing to do after installation of many users. Why don't we crate a tool to help these end users, but not let them study tones of documents. Based on this idea, many developers in Taiwan, provided some software tools for system adjustments. These tools fix some problems, but many of them require operation skill on command line interface, and leaking for flexibility. If we can provide an simple GUI, then the user only need to use their mouse to fix most of the issues. This is the target of Lazybuntu, and Lazyscripts development.
 
-At this moment, Lazyscripts support distributions like Ubuntu, Debian. The tool help the user to setup network, libraries, Chinese desktop environment, multimedia codecs, DVD playing, and some useful softwares. Which help the user adjust the desktop environment for common usage.
+At this moment, Lazyscripts support distributions like Ubuntu, Debian. The tool help the user to setup network, libraries, Chinese desktop environment, multimedia codecs, DVD playing, and some useful software. Which help the user adjust the desktop environment for common usage.
 
 Except the basic function of Lazybuntu, Lazyscripts improved the scripts management framework, make those scripts are more easy to share, retrieve, merge, and also much better flexibility for different customization purpose.
+
+=================
+Release model
+=================
+
+Once in a while, development team will release Alpha version for integration and test by core developers, scripts pool maintainer and script developer. After the team confirm this version is stable, we will release RC version for end user. And listen for feedback, until the team see it's stable for official release.
+
+Version numbers.
+
+* Alpha: for developers
+    Lazyscripts 0.1alpha
+* rcN: candidate versoin for official release
+    Lazyscripts 0.1rc1
+* X.Y: Official release
+    Lazyscripts 0.1
+* X.Y.Z: Minor release, as hotfixes
+    Lazyscripts 0.1.1
+* Special version:
+    Lazyscripts ezgo
 
 ===========
 Features
@@ -51,6 +70,8 @@ System requirements
     * `make - GNU make utility to maintain groups of programs <http://www.gnu.org/software/automake/>`_
 
     * `Sphinix - Python Document Creator <http://sphinx.pocoo.org/index.html>`_
+
+    * `PyGTK - GTK+ for Python <http://www.pygtk.org/>`_
 
 =================================
 HOWTO install Lazyscripts
