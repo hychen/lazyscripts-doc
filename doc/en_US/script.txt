@@ -1,0 +1,93 @@
+Script
+========
+
+============================
+How to write a script
+============================
+
+It's very easy to write your own script, only a few notes
+#. Write them in scripting language. Like bash shell, perl or python.
+#. Take care the format of meta data. In runtime, Lazyscripts will put all the scripts you need in same directory, so please only use current relatively directory.
+
+===================
+Shell environment variables
+===================
+
+Lazyscripts will generate a new file at run-time, and store the environment variables in the file.
+After lazy scripts obtain the root permission, it will restore the environment variables from the file.
+
+* DISTRIB_ID： Linux Distribution name, Ex: Fedora, Ubuntu, etc.
+* DISTRIB_CODENAME： Code name of distribution, Ex: hardy, lenny
+* DISTRIB_VERSION： Version of distribution, Ex: 11.0, 11.1。
+* WIN_MGR： The window manager of this software, Gnome or KDE.
+* PLAT_NAME： Hardware architecture, Ex: i386, x86_64。
+* REAL_USER： The user id who run the lazyscripts.
+* REAL_HOME： The home directory of the user, who run Lazyscripts.
+* WGET："wget --tries=2 --timeout=120 -c"
+
+====================
+Script Category
+====================
+
+When you submit a script to scripts maintainer, who will put your script into corresponding category.
+
+* Productivity – ： Production tool, like Office Suite. Ex: vim, openoffice
+* Graphics – Drawing software Ex: gimp
+* Development – Software for programming. Ex: eclipse
+* Entertain – Entertainment and multi-media Ex: mplayer, miro
+* InfoManagement – Tools for management tasks Ex: sunbird, gnucash
+* Games – Ex: gweled
+* Hardware – Hardware related tools Ex: Thinkpad hardware/firmware access.
+* Multimedia – Multimedia Ex: gstreamer
+* Networking – Network applications Ex. firefox, pidgin, ie6, skype, pcman
+* System - System-related
+* Customize – Speed up system
+* Localization - Ex: tools for Chinese environment.
+
+====================
+Script Meta-data
+====================
+
+All the information are written in the scripts as comment, for describe author, purpose and copyright information.
+
+Ex:
+
+    # @name_enUS 'english script name.'
+    # @name_zhTW '中文script名。'
+    # @desc_enUS 'English description.
+    #            Second line.'
+    # @warn_enUS 'English warning.'
+    # @desc_zhTW '中文script說明
+    #             第2行'
+    # @warn_zhTW '中文警告'
+    # @category 'Customize'
+    # @maintainer '林哲瑋 Zhe-Wei Lin (billy3321,雨蒼) <billy3321 -AT- gmail.com>'
+    # @author '林哲瑋 Zhe-Wei Lin (billy3321,雨蒼) <billy3321 -AT- gmail.com>'
+    # @debian
+    # @ubuntu
+    # @platform 'i386 amd64'
+    # @child 'Common/add-apt-sources Common/debinstall.py'
+    # @hide
+
+
+**Essential**
+
+* @name_[locale] : Name
+* @desc_[locale] : Description
+
+* @category : name of category
+* @maintaner : name of maintaner
+* @author : name of author
+* @license : license type
+
+**Optional**
+
+* @warn_[locale] : Warning
+* @hide : Don't show in the script list.
+* @interact : Will be interactive with the user
+* @debian : Supported Debian
+* @ubuntu : Supported Ubuntu
+* @platform : Supported hardware architecture. (x86, amd64)
+* @child : Script dependance, need to indicate the script path, not only the script name.
+
+   Ex：@child 'Internet/ie6.sh Internet/after_ie6.sh'

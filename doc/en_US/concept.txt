@@ -1,0 +1,64 @@
+Concept
+=========
+
+Lazyscripts succeed to usability of Lazyubuntu, it kept all the user interface of Lazyubuntu. Expected the advanced features, users who have used Lazyubuntu don't need to learn the new operation procedures. Under the UI, we have a new design  for script distributing system, it's not perfect yet, but already implemented our initial idea.
+
+This chapter address the framework of Lazyscripts.。
+
+=============
+Definition
+=============
+
+Script
+
+  A piece of software for install software packages and customization.
+
+Scripts Pool
+
+  Scripts pool is a git repository for storing scripts.
+
+Scripts List
+
+  Provide scripts and version information for Lazyscripts.
+
+End User
+
+  Who can use Lazyscripts for customized installation.
+
+Scripts Developer
+
+  Who can write script for install or customization in any programming language.
+
+Scripts Pool Maintainer
+
+  Who make scripts list, and accept and verify script submission.
+
+Core Developer
+
+  Who develop main program and documentation.
+
+Lazyscripts Social Web
+
+  A web site like Mozilla Firefox Addons portal. (http://addons.mozilla.org Does not implementation yet)
+
+=========================
+System architecture 
+=========================
+
+.. note::
+
+    Lazyscripts Social Web is not implemented yet.
+
+.. image:: image/lazyscripts_model.jpg
+
+==================================
+Version control for Script 
+==================================
+
+TBD
+
+=============================
+Distribution of script
+=============================
+
+TBD

@@ -1,0 +1,106 @@
+Scripts Pool
+================
+
+More easy to update! More easy to integrate! Version control for scripts, and much more faster!
+
+This is the basic requirement for lazyscript. We acknowledged Linux Desktop is not prefect. It's not like fairy tale, you live happily ever after, instead, it's more like fidgety and no-ending fine tune.
+
+============
+Scripts Pool
+============
+
+.. note:
+
+    Support for SuSE, Arch Linux and Fedora are under development.
+
+It's very easy to let Lazyscripts to support different Linux distribution, you only need to replace the scripts pool. It only need someone to create and maintain the pool. Volunteers, let's do it with heart afire.
+
+Here are the current supported distributions:
+
+* Ubuntu/Debian
+    * Repository : git://github.com/billy3321/lazyscripts_pool_debian_ubuntu.git
+    * Maintainer： `Zhe-Wei Lin 林哲瑋 (billy3321,雨蒼) <http://billy3321.blogspot.com/>`_ <billy3321 at gmail.com>
+
+* Ezgo free software cdrom (based on Ubuntu)
+    * Repository: git://github.com/hychen/lazyscripts_pool_debian_ubuntu_edu.git
+    * Maintainer： `Hsin Yi Chen 陳信屹 (hychen) <http://hychen.wuweig.org>`_ <ossug.hychen at gmail.com>
+
+=============================
+Customize Scripts Pool
+=============================
+
+.. note::
+
+    The functions for customize scripts pool are not finalized yet, it can be changed a lot in the future.
+
+You need to understand how to use git, we suggest you use gitk for repository management. Here is an example for Ezgo script pool:
+
+#. create empty repo ::
+
+    user@host$ mkdir lz_scriptspool_edu
+
+    user@host$ cd lz_scriptspool_edu
+
+    user@host$ git init
+
+#. add oringinal repo url ::
+
+    user@host$ git remote add origin git@github.com:hychen/lazyscripts_pool_debian_ubuntu_edu.git
+
+#. add new upstream repo url  ::
+
+    user@host$ git remote add upstream git://github.com/billy3321/lazyscripts_pool_debian_ubuntu.git
+
+#. fetch ::
+
+    user@host$ git fetch upstream
+
+#. checkout ::
+
+    user@host$ git checkout upstream/stable -b master
+
+#. work
+
+#. commit and push back to remote git repository::
+
+    user@host$ git commit -a
+
+    user@host$ git push master origin
+
+=========================================
+Sync with upstream scripts Pool
+=========================================
+
+#. Fetching upstream git index ::
+
+    user@host$ git fetch upstream
+
+#. Merge or Rebase ::
+
+    user@host$ git merge upstream/stable
+
+#. Push back to remote git repository ::
+
+    user@host$ git push master origin
+
+========================
+Build scripts List
+========================
+
+#. add repo url to lazyscritps ::
+
+    # put new repo url to this file.
+    user@host$ vi conf/repository.conf
+
+    user@host$ cat conf/repository.conf
+    git://github.com/hychen/lazyscripts_pool_debian_ubuntu_edu.git
+
+#. build scripts list ::
+
+    user@host$ ./bin/slzs list build git://github.com/hychen/lazyscripts_pool_debian_ubuntu_edu.git
+
+#. edit scripts list to set default selected scripts. ::
+
+    user@host$ ./devtools/scriptslist_editor.py
+
+#. commit and put scripts.list to repository.

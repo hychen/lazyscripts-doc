@@ -45,11 +45,11 @@
 
 #. add oringinal repo url ::
 
-    user@host$ git repo add origin git@github.com:hychen/lazyscripts_pool_debian_ubuntu_edu.git
+    user@host$ git remote add origin git@github.com:hychen/lazyscripts_pool_debian_ubuntu_edu.git
 
 #. add new upstream repo url  ::
 
-    user@host$ git repo add upstream git://github.com/billy3321/lazyscripts_pool_debian_ubuntu.git
+    user@host$ git remote add upstream git://github.com/billy3321/lazyscripts_pool_debian_ubuntu.git
 
 #. fetch ::
 

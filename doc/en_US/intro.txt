@@ -1,0 +1,103 @@
+Introduction
+================
+
+Lazyscripts was released at April 1st 2009, as a replacement of Lazyubuntu. All most all the source code including core framework have been rewritten, expected for some GUI and customize scripts.
+
+Lazybuntu was initiated by PCMan at 2009/09/25. The idea is to help Ubuntu users install and use the software. Even though Ubuntu is a very friendly Linux distribution for end users, but there are still many imperfection, especially for Chinese desktop environment, all through Ubuntu developers has already put many works on these issue, but still can not meet the common usage behavior of Taiwanese users, the default installation also leaks some common Chinese software.
+
+Furthermore, there are multimedia related software are not included in Ubuntu official repository, because some legal or patent issues. But these software like mp3 decoder, dvd players are essential for desktop users. So, the users will need some adjustments after install Ubuntu.
+
+Since these adjustments are the first thing to do after installation of many users. Why don't we crate a tool to help these end users, but not let them study tones of documents. Based on this idea, many developers in Taiwan, provided some software tools for system adjustments. These tools fix some problems, but many of them require operation skill on command line interface, and leaking for flexibility. If we can provide an simple GUI, then the user only need to use their mouse to fix most of the issues. This is the target of Lazybuntu, and Lazyscripts development.
+
+At this moment, Lazyscripts support distributions like Ubuntu, Debian. The tool help the user to setup network, libraries, Chinese desktop environment, multimedia codecs, DVD playing, and some useful software. Which help the user adjust the desktop environment for common usage.
+
+Except the basic function of Lazybuntu, Lazyscripts improved the scripts management framework, make those scripts are more easy to share, retrieve, merge, and also much better flexibility for different customization purpose.
+
+=================
+Release model
+=================
+
+Once in a while, development team will release Alpha version for integration and test by core developers, scripts pool maintainer and script developer. After the team confirm this version is stable, we will release RC version for end user. And listen for feedback, until the team see it's stable for official release.
+
+Version numbers.
+
+* Alpha: for developers
+    Lazyscripts 0.1alpha
+* rcN: candidate versoin for official release
+    Lazyscripts 0.1rc1
+* X.Y: Official release
+    Lazyscripts 0.1
+* X.Y.Z: Minor release, as hotfixes
+    Lazyscripts 0.1.1
+* Special version:
+    Lazyscripts ezgo
+
+===========
+Features
+===========
+
+* Don't need to update main program frequently:
+
+   The new lazyscripts does not released with 'scripts'. The scripts are split with the main software. And all scripts will be downloaded from Internet when them are added. The new architecture is now including 3 layer software, includes GUI, Core and Scripts.
+
+   The scripts will be updated by maintainers, the user only need to reload the software for new updates, don't need to update the main program.
+
+* Customized Scripts:
+
+   If you are an advanced user, you can customize your own script in a few easy steps. For example, you can customize your own scripts for Office or Education purpose.
+
+==========================
+System requirements
+==========================
+
+* Required software
+
+    * GNU/Linux Distribution
+
+        * Ubuntu 8.10 or Ubuntu 9.04 Desktop version (AMD/x86)
+        * Debian Lenny desktop environment (Only x86 is tested at this moment)
+
+    * `Git <http://git-scm.com/>`_
+
+    * `Python 2.6 or newer <http://www.python.org>`_
+
+    * `GitPython - Git Python Bidding Module <http://gitorious.org/projects/git-python/>`_
+
+* Software for development
+
+    * `Nose - Python Testing Framework <http://code.google.com/p/python-nose/>`_
+
+    * `make - GNU make utility to maintain groups of programs <http://www.gnu.org/software/automake/>`_
+
+    * `Sphinix - Python Document Creator <http://sphinx.pocoo.org/index.html>`_
+
+    * `PyGTK - GTK+ for Python <http://www.pygtk.org/>`_
+
+=================================
+HOWTO install Lazyscripts
+=================================
+
+Lazyscripts require network access, please make sure you have been connected to Internet when running the following steps. The installation of Lazyscripts is same with lazybuntu. Please visit this url:
+
+* http://code.google.com/p/lazyscripts/
+
+There is a `Featured downloads' section, please choose the CPU architecture you are using. If you don't know which architecture you are using, please choose i386.
+
+Please decompress the file you have downloaded, there will be a Lazyscripts program, double click it.
+
+If this is the first time you use Lazyscripts, please wait for a while for install necessary software. The UI will be show up after a few minutes, please be patient. You can start to choose the software you like to install, and press 'Yes'.
+
+============================
+HOWTO use Lazyscripts
+============================
+
+.. note::
+
+    Lazyscripts required Internet access.
+
+KISS user interface.
+
+.. image:: image/userinterface.jpg
+
+Download lazyscripts, decompress and double click, that's all. And choose the software category, click on the software you like (or not) install, and press `apply' button in the below. The terminal on the UI will download and install the software you chosen. All of these steps can be done in 3 minutes.
+

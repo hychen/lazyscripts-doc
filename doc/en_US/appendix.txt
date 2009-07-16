@@ -1,0 +1,21 @@
+Appendix
+==========
+
+======
+FAQs
+======
+
+#. My network is connected, why I can not use Lazyscripts ?
+
+   Please check your firewall setting, or make sure your computer is able to connect to Github.com .
+
+============
+Copyright
+============
+
+The main program and documents of Lazyscripts are licensed under GNU General
+Public License . Please refer to the statements of the license for more details.
+
+The scripts of lazyscripts might be released under different licenses. Please 
+make contact with the auther of each scripts for license agreement.
+

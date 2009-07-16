@@ -1,0 +1,74 @@
+What's new in Lazyscripts 0.1
+=======================================
+
+This document address the new function in Lazyscripts 0.1 released at 2009/07/01.
+
+This document gave an overview of Lazyscripts 01, but not described the new functions, for more details please read Lazyscripts 0.1 user manual.
+
+==================================================
+The major different between Lazybuntu
+==================================================
+
+* Don't need to update main program frequently:
+
+   New lazyscripts core program is released independent of scripts. Lazyscripts are now only core program, all the functions will be downloaded from Internet at runtime. And the software framework are spited into GUI, core and scripts.
+
+   Functions will be updated by maintainer, and can be reload after rerun the software, don't need to update the main program.
+
+
+* Customizable Scripts：
+
+   If you are an advanced user, lazyscripts will provide a simple mechanism for let you manage your own scripts in the future. Which means, all the software options for user are free to modify. For example, you can customize your own scripts for Office or Education purpose.
+
+===========
+New Logo
+===========
+
+Thanks `Honkia <http://pdtw.blogspot.com/>`_
+for designing Logo of new Lazyscrtipts.
+
+.. image:: ../image/lazyscripts_logo.jpg
+
+=========================================
+More flexible system architecture
+=========================================
+
+All the framework of Lazyscripts are updated, it's more easy to integrate customized scripts. The next version will be more easy to replace scripts source.
+
+========================
+Auto update scripts
+========================
+
+All the scripts of Lazyscripts will be updated from Internet, when you run the main program.
+
+===========================================
+New supported Linux distribution
+===========================================
+
+.. note::
+
+    Suppport SuSE and Fedora are under development.
+
+Since 0.1, we supported:
+
+* Debian 5.0 (Install desktop environment)
+* `EzGo Free Software CDROM <http://news.ossacc.org/new_icare_readme_linux/ezgo.html>`_
+
+=========================
+Development changed
+=========================
+
+* The source code is managed by git.
+
+* Project management is hosted at Google Code.
+
+* Documentation system based on Sphinix.
+
+    Sphinix is a documentation system used by Python 2.6, based on `reStructuredText <http://docutils.sourceforge.net/rst.html>`_
+     It supported syntax handling, linking and supported many output format including HTML, PDF, Latex. You can use Sphinx for customized page style, navigation, and even search functions.
+
+
+.. seealso::
+
+    * `Git <http://git-scm.org>`_
+    * `Sphinix <http://sphinx.pocoo.org/index.html>`_
